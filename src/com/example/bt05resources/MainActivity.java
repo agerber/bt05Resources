@@ -26,63 +26,7 @@ public class MainActivity extends Activity {
 		setContentView(R.layout.activity_main);
 		
 		
-		//################################################
-		// RESOURCES
-		//################################################
-		Resources res = getResources();
 		
-		//################################################
-		// RESOURCES:DIMENSIONS
-		//################################################
-		//referencing a dimension pogrammatically
-		float fSize = res.getDimension(R.dimen.font_size);
-		//alternatively
-		float fSize2 = getResources().getDimension(R.dimen.font_size);
-		
-		//referencing a dimension inside another resource xml file
-		//notice the @dimen
-		//<TextView
-		//android:layout_height="@dimen/textview_height"
-		//android:layout_width="@dimen/textview_width"
-		//android:textSize="@dimen/font_size"/>
-		
-		
-		
-		//################################################
-		// RESOURCES:NUMBERS
-		//################################################
-		boolean bAnswer = res.getBoolean(R.bool.b_answer);
-		int[] nSomes = getResources().getIntArray(R.array.n_ary_some);
-		// "@bool/b_answer"
-		// "@array/n_ary_some"
-		
-	
-		
-		
-		//################################################
-		// RESOURCES:STRINGS
-		//################################################
-		String[] strCurrs = getResources().getStringArray(R.array.currs);
-		String strHello = getResources().getString(R.string.hello);
-		//	"@string/hello"
-		// "@array/currs"
-		
-		//alt-shift-A S to externalize a string
-		//"silly string that I want externalized"
-
-		
-		//################################################
-		// RESOURCES:COLORS
-		//################################################
-		int nOlive = getResources().getColor(R.color.olive);
-		//	"@color/olive"
-
-
-		//################################################
-		// RESOURCES:DRAWABLE
-		//################################################
-		Drawable drwScorpion = getResources().getDrawable(R.drawable.scorpion);
-		//	"@drawable/scorpion"
 		
 	}
 
