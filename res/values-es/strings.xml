@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">bt05Resources</string>
+    <string name="menu_settings">Los Settings</string>
+    <string name="hello_world">Hola Mundo</string>
+     <string name="hello">!Hola Mundo, se hable espanol!</string>
+
+      <string name="for_prompt">for_cur</string>
+      <string name="hom_prompt">hom_cur</string>
+      
+        <string-array name="currs">
+        <item>USD</item>
+        <item>EUR</item>
+        <item>CNY</item>
+        <item>UIB</item>
+        <item>POE</item>
+        <item>MER</item>
+        <item>OOW</item>
+        <item>QXD</item>
+        <item>ARG</item>
+    </string-array>
+
+</resources>

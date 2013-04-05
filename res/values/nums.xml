@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <bool name="b_answer">        true</bool>
+
+    <integer name="n_gold_rush">        1849</integer>
+
+    <integer-array name="n_ary_some">
+        <item>11</item>
+        <item>22</item>
+        <item>33</item>
+        <item>44</item>
+    </integer-array>
+
+</resources>
